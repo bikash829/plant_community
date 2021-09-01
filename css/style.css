@@ -367,6 +367,7 @@ h1,h2,h3{
     .banner{
         flex-direction: column;
     }
+
     p{
         font-size: 1.1rem !important;
         line-height: 30px !important;
@@ -375,6 +376,7 @@ h1,h2,h3{
     .banner_text{
         padding: unset;
         margin-bottom: 30px;
+        order: 2;
     }
 
     .banner_image > div > img{
