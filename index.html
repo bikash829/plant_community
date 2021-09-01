@@ -41,7 +41,7 @@
                 <div class="menu_bar">
                     <ul>
                         <li><a href="#">Get Started</a></li>
-                        <li id="menu_bar"><a onclick="menu_event()" href="#"><i class="fas fa-bars"></i></a></li>
+                        <li id="menu_bar"><a href="#"><i onclick="menu_event()" class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
 
@@ -120,11 +120,10 @@
             
             
 
-        function menu_event() {
+        function menu_event(){
             let menu = document.getElementById("nav_menu");
 
-            var x = document.getElementById("myDIV");
-            if (menu.style.display === "none") {
+            if (menu.style.display == '' || menu.style.display === "none") {
                 menu.style.display = "block";
             } else {
                 menu.style.display = "none";

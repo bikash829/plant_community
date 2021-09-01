@@ -284,6 +284,7 @@ h1,h2,h3{
         display: block;
         right: 0;
         top: 4rem;
+        z-index: +11;
     }
 
     .nav_menu{
